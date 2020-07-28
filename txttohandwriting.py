@@ -78,3 +78,5 @@ for i in range(0,len(imagelist)):
     pdf.add_page()
     pdf.image(imagelist[i], 0, 0)
 pdf.output("newww.pdf", "F")
+
+print("practcing")
